@@ -7,9 +7,9 @@ const Step1: React.FC = () => {
         <div>
             <h2>Select a Scenario for your Web3 Campaign</h2>
             <select onChange={(e) => setSelectedScenario(e.target.value)}>
-                <option value="scenario1">Scenario 1</option>
-                <option value="scenario2">Scenario 2</option>
-                <option value="scenario3">Scenario 3</option>
+                <option value="scenario1">Create an NFT collection</option>
+                <option value="scenario2">Token gate access to ticketing</option>
+                <option value="scenario3">Token gate parts of your website</option>
             </select>
 
             <button onClick={() => {
